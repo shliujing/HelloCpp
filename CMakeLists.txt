@@ -3,5 +3,5 @@ project(HelloCpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES vector_demo.cpp Solution.cpp Point.cpp)
+set(SOURCE_FILES vector_demo.cpp Solution.cpp Point.cpp main_test.cpp)
 add_executable(HelloCpp ${SOURCE_FILES})

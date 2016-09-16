@@ -62,23 +62,23 @@ private:
 
 };
 
-int main() {
-    Solution M;        //用定义好的类创建一个对象 点M
-
-    /**
-     * 2.1.1
-     */
-//    vector<int> vec {1, 1, 2, 3, 4, 1, 2, 3, 4};
-//    cout << M.removeDuplicates(vec) << endl;
-
-
-    /**
-     * 2.1.5
-     */
-    vector<int> vec1 {33,55,88};
-    vector<int> vec2 {44,54,70,80,90};
-
-    cout << M.findMedianSortedArrays(vec1,vec2) << endl;
-
-    return 0;
-}
+//int main() {
+//    Solution M;        //用定义好的类创建一个对象 点M
+//
+//    /**
+//     * 2.1.1
+//     */
+////    vector<int> vec {1, 1, 2, 3, 4, 1, 2, 3, 4};
+////    cout << M.removeDuplicates(vec) << endl;
+//
+//
+//    /**
+//     * 2.1.5
+//     */
+//    vector<int> vec1 {33,55,88};
+//    vector<int> vec2 {44,54,70,80,90};
+//
+//    cout << M.findMedianSortedArrays(vec1,vec2) << endl;
+//
+//    return 0;
+//}
